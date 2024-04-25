@@ -1,0 +1,274 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #91caae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bank-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 800px;
+}
+
+.header {
+  background-color: #1c5438;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.account-balance {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+  width: 120%; 
+  max-width: 400px; 
+  text-align: center; 
+}
+.credit-content {
+  width: 100%;
+}
+
+.credit-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.credit-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.credit-amount {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: white; /* Change color to white */
+}
+
+.credit-description {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: white; /* Change color to white */
+}
+
+.credit-date {
+  font-size: 14px;
+  color: #ccc; /* Light gray */
+}
+
+.credit-item {
+  background-color: rgba(0, 0, 128, 0.1); /* Navy with opacity */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  width: 600px; /* Adjust max-width as needed */
+  flex-direction: row;
+}
+
+.credit-form {
+  background-color: rgba(0, 0, 128, 0.1); /* Navy with opacity */
+  padding: 20px;
+  border-radius: 6px;
+  width: 100%;
+  width: 600px; /* Adjust max-width as needed */
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-size: 18px;
+  font-weight: bold;
+  color: white; /* Change color to white */
+  margin-bottom: 8px;
+}
+
+.form-input {
+  padding: 8px; /* Decrease padding */
+  font-size: 14px; /* Decrease font size */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+  background-color: rgba(255, 255, 255, 0.8); /* White with opacity */
+}
+
+.form-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white; /* Change color to white */
+  background-color: #000080; /* Dark blue (navy) */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+nav {
+  background: rgba(0, 0, 255, 0.7); /* Blue with opacity */
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 20px;
+  font-weight: bold;
+  float: left;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Black shadow on hover */
+}
+
+ /* Nav bar */
+ /* nav {
+  background: #355a3a;
+  opacity: 1;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 20px;
+  font-weight: bold;
+  float: left;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 20px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  background-color: #2d4d32;
+  box-shadow: 0 0 5px #1e3321;
+} */
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #26402a;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover,
+  a.active {
+    background: none;
+    color: white;
+    background-color: #2d4d32;
+    box-shadow: 0 0 5px #1e3321;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+/* Add padding underneath the navbar */
+.content {
+  padding-top: 120px; 
+  padding-bottom: 60px;
+}
+
