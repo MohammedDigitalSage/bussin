@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MohammedDigitalSage/bussin/static/css/main.6474b235.css",
+    "main.js": "/MohammedDigitalSage/bussin/static/js/main.72d4c4b4.js",
+    "static/js/453.d81f9453.chunk.js": "/MohammedDigitalSage/bussin/static/js/453.d81f9453.chunk.js",
+    "index.html": "/MohammedDigitalSage/bussin/index.html",
+    "main.6474b235.css.map": "/MohammedDigitalSage/bussin/static/css/main.6474b235.css.map",
+    "main.72d4c4b4.js.map": "/MohammedDigitalSage/bussin/static/js/main.72d4c4b4.js.map",
+    "453.d81f9453.chunk.js.map": "/MohammedDigitalSage/bussin/static/js/453.d81f9453.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6474b235.css",
+    "static/js/main.72d4c4b4.js"
+  ]
+}
