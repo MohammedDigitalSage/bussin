@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/assignment-3-bank-of-react/static/css/main.7885db28.css",
-    "main.js": "/assignment-3-bank-of-react/static/js/main.361913d5.js",
-    "static/js/453.d81f9453.chunk.js": "/assignment-3-bank-of-react/static/js/453.d81f9453.chunk.js",
-    "static/media/minimal-background-simple-green-design-vector_242622-257.avif": "/assignment-3-bank-of-react/static/media/minimal-background-simple-green-design-vector_242622-257.c96d8f5197827051e03f.avif",
-    "index.html": "/assignment-3-bank-of-react/index.html",
-    "main.7885db28.css.map": "/assignment-3-bank-of-react/static/css/main.7885db28.css.map",
-    "main.361913d5.js.map": "/assignment-3-bank-of-react/static/js/main.361913d5.js.map",
-    "453.d81f9453.chunk.js.map": "/assignment-3-bank-of-react/static/js/453.d81f9453.chunk.js.map"
+    "main.css": "/MohammedDigitalSage/bussin/static/css/main.6474b235.css",
+    "main.js": "/MohammedDigitalSage/bussin/static/js/main.72d4c4b4.js",
+    "static/js/453.d81f9453.chunk.js": "/MohammedDigitalSage/bussin/static/js/453.d81f9453.chunk.js",
+    "index.html": "/MohammedDigitalSage/bussin/index.html",
+    "main.6474b235.css.map": "/MohammedDigitalSage/bussin/static/css/main.6474b235.css.map",
+    "main.72d4c4b4.js.map": "/MohammedDigitalSage/bussin/static/js/main.72d4c4b4.js.map",
+    "453.d81f9453.chunk.js.map": "/MohammedDigitalSage/bussin/static/js/453.d81f9453.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7885db28.css",
-    "static/js/main.361913d5.js"
+    "static/css/main.6474b235.css",
+    "static/js/main.72d4c4b4.js"
   ]
 }
